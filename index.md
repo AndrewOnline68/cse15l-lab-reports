@@ -1,4 +1,4 @@
-Hello World!!!
+Hello Visitor. This page is used to display the different lab reports that are required for this course.
 
 [Lab Report 1](lab-report-1-week-0.html)
 
