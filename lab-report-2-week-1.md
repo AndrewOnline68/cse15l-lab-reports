@@ -26,6 +26,29 @@ Afterward following the website and opening up the program, your screen should l
  * cd ~
  * cd
 
+These Commands should allow you to experiment a bit to see how the remote desktop works on your local computer.
 
+## **Step 4: Moving files with the scp command**
+Now that you know how to access the remote desktop, this step will now teach you how to copy files from your local computer to the remote. To do this we will use the command:
+## scp (className) cs15lfa22zz@ieng6.ucsd.edu:~/;
 
- 
+The first step is to create a class file. Creating a class file will depend on what project you are currently working on. Afterwards, you are going to compile the class file using the command: javac (className). Run the file using the command: java (className).
+
+Here is an example from the local desktop:
+
+![image](https://user-images.githubusercontent.com/114555448/193203122-53871a67-669a-41a0-bbac-e5075cfb5fc7.png)
+
+Now use the command:
+** scp (className) cs15lfa22zz@ieng6.ucsd.edu:~/;
+
+to copy the class file to the remote desktop. Once completed, use the ssh command to access the desktop again and run the javac (className) command to see if it copied over.
+
+Here is an example from the remote desktop:
+
+![image](https://user-images.githubusercontent.com/114555448/193203584-1d686de2-7344-4c07-a2c6-848e4d4fbcda.png)
+
+Here's also the cluster of text that is shown when doing this process:
+
+![image](https://user-images.githubusercontent.com/114555448/193203725-a1e137b6-6e83-44b6-9fd0-03c38451c5b7.png)
+
+## **Step 5: Setting an SSH Key**
