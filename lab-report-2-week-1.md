@@ -11,7 +11,7 @@ Afterward following the website and opening up the program, your screen should l
  
  ## **Step 2: Remotely Connecting**
  In order to connect remotely to the remote desktop, on the terminal type in the code:
- ## ssh cs15lfa22mf@ieng6.ucsd.edu
+`ssh cs15lfa22mf@ieng6.ucsd.edu`
  Afterwards, you should be prompted to input a password. This password should be the same one as the one your UCSD password
  
  *Note: This personally took a while due to waiting for the password to reset.*
@@ -20,28 +20,28 @@ Afterward following the website and opening up the program, your screen should l
  
  ## **Step 3: Trying some Commands**
  Now that you are in the remote desktop, it is time to tryout some commands. Some recommended commands to use are listed below:
+``` 
  * ls
  * ls -lat
  * ls -a
  * cd ~
  * cd
+```
 
 These Commands should allow you to experiment a bit to see how the remote desktop works on your local computer.
 
 ## **Step 4: Moving files with the scp command**
 Now that you know how to access the remote desktop, this step will now teach you how to copy files from your local computer to the remote. To do this we will use the command:
-**scp (className) cs15lfa22zz@ieng6.ucsd.edu:~/;**
+`scp (className) cs15lfa22zz@ieng6.ucsd.edu:~/;`
 
-The first step is to create a class file. Creating a class file will depend on what project you are currently working on. Afterwards, you are going to compile the class file using the command: javac (className). Run the file using the command: java (className).
+The first step is to create a class file. Creating a class file will depend on what project you are currently working on. Afterwards, you are going to compile the class file using the command:
+`javac (className).` Run the file using the command:`java (className).`
 
 Here is an example from the local desktop:
 
 ![image](https://user-images.githubusercontent.com/114555448/193203122-53871a67-669a-41a0-bbac-e5075cfb5fc7.png)
 
-Now use the command:
-** scp (className) cs15lfa22zz@ieng6.ucsd.edu:~/;
-
-to copy the class file to the remote desktop. Once completed, use the ssh command to access the desktop again and run the javac (className) command to see if it copied over.
+Now use the command: `scp (className) cs15lfa22zz@ieng6.ucsd.edu:~/;` to copy the class file to the remote desktop. Once completed, use the ssh command to access the desktop again and run the javac (className) command to see if it copied over.
 
 Here is an example from the remote desktop:
 
