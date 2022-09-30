@@ -17,5 +17,15 @@ Afterward following the website and opening up the program, your screen should l
  *Note: This personally took a while due to waiting for the password to reset.*
  The terminal should look like this:
  ![image](https://user-images.githubusercontent.com/114555448/193199982-5b5bcbbd-a152-436d-94d0-feed5d92a6b3.png)
+ 
+ ## **Step 3: Trying some Commands**
+ Now that you are in the remote desktop, it is time to tryout some commands. Some recommended commands to use are listed below:
+ * ls
+ * ls -lat
+ * ls -a
+ * cd ~
+ * cd
+
+
 
  
