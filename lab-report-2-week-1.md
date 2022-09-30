@@ -30,7 +30,7 @@ These Commands should allow you to experiment a bit to see how the remote deskto
 
 ## **Step 4: Moving files with the scp command**
 Now that you know how to access the remote desktop, this step will now teach you how to copy files from your local computer to the remote. To do this we will use the command:
-## scp (className) cs15lfa22zz@ieng6.ucsd.edu:~/;
+**scp (className) cs15lfa22zz@ieng6.ucsd.edu:~/;**
 
 The first step is to create a class file. Creating a class file will depend on what project you are currently working on. Afterwards, you are going to compile the class file using the command: javac (className). Run the file using the command: java (className).
 
