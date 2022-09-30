@@ -67,4 +67,11 @@ Now that we set up the ssh key, log back into the remote desktop and run the pro
 Once finished, you should be able to use the `ssh` or the `scp` command with the use of the passcode.
 
 ## **Step 6: Optimizing Remote Running**
+Now that we set up a pin to quickly log in to the remote client, We are now going to optimize running the remote client. The most common way to optimize the remote running is to use keystrokes, which is less keys used to run programs.
+This part is honestly where I got stuck on. Tried using multiple keystrokes to optimized my remote progress, but wasn't able to do it
 
+Example of what my attempts looks like:
+![image](https://user-images.githubusercontent.com/114555448/193332039-539a1260-bee0-4c61-a482-00af77638ff1.png)
+
+
+This will conclude the Lab Report on how to access the remote client and how to copy files to that remote client.
