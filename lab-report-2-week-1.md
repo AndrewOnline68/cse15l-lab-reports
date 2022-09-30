@@ -52,30 +52,19 @@ Here's also the cluster of text that is shown when doing this process:
 ![image](https://user-images.githubusercontent.com/114555448/193203725-a1e137b6-6e83-44b6-9fd0-03c38451c5b7.png)
 
 ## **Step 5: Setting an SSH Key**
-Logging into the remote is pretty fast and simple, right? Wrong, it is actually pretty tedious to type in and/or copy/paste your password everytime you want to access the remote desktop. What if I told you that you can input a private pin instead. To do this, run the following program onyour client:
+Logging into the remote is pretty fast and simple, right? Wrong, it is actually pretty tedious to type in and/or copy/paste your password everytime you want to access the remote desktop. What if I told you that you can input a private pin instead. To do this, run the following program on your client:
 ```
-# on client (your computer)
-$ ssh-keygen
-Generating public/private rsa key pair.
-Enter file in which to save the key (client directory):
-Enter passphrase (empty for no passphrase): 
-Enter same passphrase again: 
-Your identification has been saved in (client directory).
-Your public key has been saved in (client directory).
-The key fingerprint is:
-SHA256:jZaZH6fI8E2I1D35hnvGeBePQ4ELOf2Ge+G0XknoXp0 (This part is different for everyone)
-The key's randomart image is:
-+---[RSA 3072]----+
-|                 |
-|       . . + .   |
-|      . . B o .  |
-|     . . B * +.. |
-|      o S = *.B. |
-|       = = O.*.*+|
-|        + * *.BE+|
-|           +.+.o |
-|             ..  |
-+----[SHA256]-----+
+ssh key-gen;
 ```
+Afterwards the terminal should display what is shown below:
+![image](https://user-images.githubusercontent.com/114555448/193314777-7712745f-bf0d-4863-85c2-d1a603cdb263.png)
+
 *Note: If your using windows, follow the extra `ssh-add` steps on the image below:*
 ![image](https://user-images.githubusercontent.com/114555448/193208171-7a9e0203-b030-4575-86f0-8ce2aa9ab700.png)
+
+Now that we set up the ssh key, log back into the remote desktop and run the program `mkdir.ssh`. After that, copy the pin directory to the remote client.
+
+Once finished, you should be able to use the `ssh` or the `scp` command with the use of the passcode.
+
+## **Step 6: Optimizing Remote Running**
+
