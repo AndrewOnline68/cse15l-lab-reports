@@ -19,14 +19,18 @@ Afterward following the website and opening up the program, your screen should l
  ![image](https://user-images.githubusercontent.com/114555448/193199982-5b5bcbbd-a152-436d-94d0-feed5d92a6b3.png)
  
 ## **Step 3: Trying some Commands**
+
  Now that you are in the remote desktop, it is time to tryout some commands. Some recommended commands to use are listed below:
 ``` 
- * ls
- * ls -lat
- * ls -a
- * cd ~
- * cd
+ * ls - :Returns a list of all files in the root directory
+ * cat /home/linux/ieng6/cs15lfa22/public/hello.txt :Displays the hello.txt fil
+ * ls -a :Returns a list of all visible and hidden files in your current directory
+ * cd ~ :Changes the folder the shell is working on to the home folder
+ * cd :Changes the Directory
 ```
+
+Here are some commands on the terminal thru the remote client:
+![Screenshot 2022-10-11 132519](https://user-images.githubusercontent.com/114555448/195192534-063ae730-3d8f-4021-981c-e4b370ac5a18.jpg)
 
 These Commands should allow you to experiment a bit to see how the remote desktop works on your local computer.
 
