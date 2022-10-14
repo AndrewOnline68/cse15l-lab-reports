@@ -58,7 +58,7 @@ Here's also the cluster of text that is shown when doing this process:
 ## **Step 5: Setting an SSH Key**
 Logging into the remote is pretty fast and simple, right? Wrong, it is actually pretty tedious to type in and/or copy/paste your password everytime you want to access the remote desktop. What if I told you that you can input a private pin instead. To do this, run the following program on your client:
 ```
-ssh key-gen;
+ssh-keygen;
 ```
 Afterwards the terminal should display what is shown below:
 ![image](https://user-images.githubusercontent.com/114555448/193314777-7712745f-bf0d-4863-85c2-d1a603cdb263.png)
