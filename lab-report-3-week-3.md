@@ -3,4 +3,4 @@
 ## Part 1: Search Engines
 
 
-## Part 2: Debugging COde
+## Part 2: Debugging Code
