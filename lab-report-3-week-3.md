@@ -80,7 +80,14 @@ Add method Screenshot:
 
 ## Part 2: Debugging Code
 Array Test Code Input:
-
+![image](https://user-images.githubusercontent.com/114555448/195968791-b6f7bd27-cd4c-428e-b3a3-6ad2f44ea356.png)
+![reverseInPlace Tests](https://user-images.githubusercontent.com/114555448/195968893-bca6579d-b4dd-4dcb-93a4-166269b1a00c.jpg)
 
 Array Test Code Output:
 ![reverseInPlace Failed Tests](https://user-images.githubusercontent.com/114555448/195968380-c2b5c0c2-46f4-4d2d-b66f-88b4c8deceb0.jpg)
+
+Fixed Code:
+![image](https://user-images.githubusercontent.com/114555448/195968828-ef6b3895-9d73-460d-87d5-d33c88103041.png)
+
+The failing-induced input of the reverseInPlace() method is having an array greater than 1 when starting the program. The bug in the method replaces the index values without copying them elsewhere or retaining them in a variable or an array. The symptom and the bug are connected because the array couldn't save the values in itself, so it couldn't reverse it and output it.
+
