@@ -11,6 +11,14 @@ One alternate way to use the find command is to use the -name option of the **fi
 `find <directory> -name (name)`
 
 Below is an Example of the -name option in place.
+
 ![image](https://user-images.githubusercontent.com/114555448/199079466-3b9b78bc-f7f3-4cc1-8c05-cdebdef8d167.png)
 
 *NOTE: The ".txt" at the end of the command displays all .txt files within the current directory.*
+
+
+Another Alternate way to use the find command is the -depth or -d command option. This option allows you to find specific directories with a specific name. We use the -depth option command like this:
+`find <directory> -d -name (name search)`
+
+Here is an example of -depth option:
+
