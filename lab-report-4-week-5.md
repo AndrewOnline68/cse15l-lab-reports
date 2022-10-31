@@ -5,6 +5,7 @@
 The **find** command is a command that goes through directories and sub-directories and list all files within those directories/sub-directories. Usually, the **find** command is just used by itself to display all the files and directories with in the current directory.
 
 Example:
+
 ![image](https://user-images.githubusercontent.com/114555448/199079721-d82c980a-fa15-463b-a0a4-8950a86ca335.png)
 
 One alternate way to use the find command is to use the -name option of the **find** command. We use the command like this"
