@@ -38,7 +38,7 @@ Time for `scp`: 14:06*
 
 Time for `VIM`: 1:22
 
-*Note: Time includes time to copy files to remote*
+* *Note: Time includes time to copy files to remote*
 
 Questions:
 
