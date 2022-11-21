@@ -9,3 +9,5 @@ Hello Visitor. This page is used to display the different lab reports that are r
 [Lab Report 4](lab-report-4-week-5.html)
 
 [Lab Report 5](lab-report-5-week-7.html)
+
+[Lab Report 6](lab-report-6-week-9.html)
